@@ -1,4 +1,4 @@
-# Smart Life
+# HeliSmart
 
 Smart Life is a PHP based web application, which uses it (Internet of Things) ICs combined with modern day custom sensors to improve day to day life.
 The heart of the project is an HP Helion web server, which performs a series of Jason requests to get the respective analog readings from the individual sensors.
