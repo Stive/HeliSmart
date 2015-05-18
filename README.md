@@ -1,7 +1,7 @@
 # HeliSmart
 
-Smart Life is a PHP based web application, which uses it (Internet of Things) ICs combined with modern day custom sensors to improve day to day life.
-The heart of the project is an HP Helion web server, which performs a series of Jason requests to get the respective analog readings from the individual sensors.
+HeliSmart is a PHP based web application, which uses it (Internet of Things) ICs combined with modern day custom sensors to improve day to day life.
+The heart of the project is an **HP Helion web server**, which performs a series of Jason requests to get the respective analog readings from the individual sensors.
 The IoT IC used here is and Spark Core
 
 Each spark core is mounted randomly or in accordance with the users, to respond to day to day activities like to turn your house lights in a notification alarm for your emails, or you can get an email when your washing machine completes a wash cycle.
@@ -14,7 +14,7 @@ Lets say that you have an elderly person in your house or living just a couple o
 
 ## Virtual Reality
 The virtual reality based, application uses javascript to convert a video stream to a live time side by side video stream, so when it is focused into the google cardboard, the convex lens enlarges the image to give a widescreen view of the video stream.
-Using *IDOL on demand* enables us to get a transcript of the video confrence, using the speech to text apis.
+Using **IDOL on demand** enables us to get a transcript of the video confrence, using the speech to text apis.
 
 ##Ok, here is some technical specifications, of the things used.
 The ICs used are the *Spark Core or an Arduino (alternative)*, the spark core is a IoT based IC, and is extremely small just about the size of an Arduino nano.
