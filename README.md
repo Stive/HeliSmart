@@ -1,65 +1,30 @@
-# MySQL PHP 
+# Smart Life
 
-This version of the app uses a buildpack that is suitable for the HP Helion 
-Development Platform v1.1. Please check the 1.0 branch if you are using v1.0.
+Smart Life is a PHP based web application, which uses it (Internet of Things) ICs combined with modern day custom sensors to improve day to day life.
+The heart of the project is an HP Helion web server, which performs a series of Jason requests to get the respective analog readings from the individual sensors.
+The IoT IC used here is and Spark Core
 
-This is a simple PHP app that uses MySQL. 
+Each spark core is mounted randomly or in accordance with the users, to respond to day to day activities like to turn your house lights in a notification alarm for your emails, or you can get an email when your washing machine completes a wash cycle.
+Further use of or the more complicated uses include the lights turning on when you enter your house and you can see who is being spying on your room in your absence.
 
-New users should check out the resources available at [HP Helion Docs](http://docs.hpcloud.com/helion/devplatform/workbook/database/php/). 
-The site includes more detail and has instructions on how to create an HP
-Helion Development Platform Application Lifecycle Services Cluster.
+##Here is How it works
+Let's say you come home and have an active wifi network at your house (At least most of the people do), and your smart phone connects to it. This could be an easy way to tell that you are back into your house, your phone tells the server your back and you get a report of the people who were in your house, and your coffee maker makes you a cup of coffee and maybe some friendly music to calm you down (I can tell that my day would go great).
 
-This app uses the [Cloud Foundry PHP buildpack](https://github.com/cloudfoundry/php-buildpack)
+Lets say that you have an elderly person in your house or living just a couple of blocks away, and he has a problem of sleep walking or maybe has some temperature. Lets help your family out by giving him IoT, here is how it goes, lets say its 1am and he wakes to another day of sleep walking. You would get notified on your smart phone or your alarm may turn on warning you off this, and you don't have to turn on your lights to put him back to bed, IoT will help you around.
 
-It should be noted that certain extensions such as mysqli are not included by 
-default in the buildpack. Therefore, mysqli was added as a requirement in 
-composer.json. 
+## Virtual Reality
+The virtual reality based, application uses javascript to convert a video stream to a live time side by side video stream, so when it is focused into the google cardboard, the convex lens enlarges the image to give a widescreen view of the video stream.
 
-Please note that this app requires the latest buildpack from master for 
-compatibility. Once a new tagged release is available, this app will be using 
-a tagged release instead of getting the buildpack directly from master.
+##Ok, here is some technical specifications, of the things used.
+The ICs used are the *Spark Core or an Arduino (alternative)*, the spark core is a IoT based IC, and is extremely small just about the size of an Arduino nano.
 
-## Prerequisites
-- If you do not have an HP Helion Development Platform Application Lifecycle 
-  Services Cluster available, please create one before continuing. You will also
-  need to install the Helion CLI, which can be installed from the cluster's
-  Management Console. Please refer to [HP Helion Docs](http://docs.hpcloud.com/helion/devplatform/workbook/database/php/)
-  for further details.  
-- Make sure that the MySQL service is enabled. It is not enabled by default.    
-  You can take the following steps to enable it:
-    - Go to the Management Console (e.g. https://api.example.com)
-    - Admin --> Cluster --> Settings (gear icon on right corner) --> Check off 
-      MySQL --> Save
-    
-## Deploy the Application
 
-Execute the following commands:
+![alt text][logo]
 
-- Open the terminal
-- If you are not already there, *cd* to the root directory of the sample. The 
-  root directory contains the manifest.yml file which helps automate deployment. 
-- If you have not logged in to your target environment yet, execute the following:
+[logo]: http://cdn.instructables.com/F2A/0NRL/I3VHJHQF/F2A0NRLI3VHJHQF.MEDIUM.jpg "Spark Core"
 
-    `helion target https://api.example.com`
-    
-    `helion login`
-    
-    Enter your Management Console credentials
-    
-    `helion push`
+##Project on the way
+With the help of the IoT we can measure **heart rates** and can send the recorded data to your *server or a cloud*. From this doctor could analyse the heart rates and could perform the necessary procedures.
 
-    Hit enter to accept any default values that you may be prompted for. 
-    Note: By default, ALS clusters are configured with two domains (private and
-    public). In some situations, the Helion CLI may prompt you to select a target
-    domain. If prompted, select the public domain from the given list (e.g. https://api.example.com)
-
-## View and run the app
-- Go to the Management Console (e.g. https://api.example.com)
-- Check the applications link to see a list of your apps.
-- Click on the app you just deployed.
-- Click "View App" to see your app in action.
-
-The result when visiting the application page and clicking 'View App' should be
-a page showing some text after your app has connected to MySQL and executed a 
-query.
-# HeliSmart 
+##Future Projects
+With the help of it, why not graph a reading of your **alpha brain waves** and you can maybe send emails, turn on lights, coffee makers, browse through your TV, etc.if
