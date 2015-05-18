@@ -28,4 +28,4 @@ The ICs used are the *Spark Core or an Arduino (alternative)*, the spark core is
 With the help of the IoT we can measure **heart rates** and can send the recorded data to your *server or a cloud*. From this doctor could analyse the heart rates and could perform the necessary procedures.
 
 ##Future Projects
-With the help of it, why not graph a reading of your **alpha brain waves** and you can maybe send emails, turn on lights, coffee makers, browse through your TV, etc.if
+Using Argumented reality to improve the video calling experience.
