@@ -49,10 +49,11 @@
 
           <div class="inner cover">
             <h1 class="cover-heading" style="color:black;"><b>Welcome, to HeliSmart</b></h1>
-            <p class="lead" style="color:rgb(54, 41, 255);">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+            <p class="lead" style="color:rgb(54, 41, 255);">Experience video calling like never before, based on virtual reality to give you an experience like never before.</p>
             <p class="lead">
               <a href="student.php" class="btn btn-lg btn-warning">Login</a>
               <a href="register.php" class="btn btn-lg btn-warning">Register</a>
+              <a href="vr.html" class="btn btn-lg btn-warning">Demo</a>
             </p>
           </div>
 
