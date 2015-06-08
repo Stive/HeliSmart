@@ -9,7 +9,7 @@
   	$tmpname = $file['tmp_name'];
   	$error = $file['error'];
   	if($error > 0){
-  		echo "An error ocured please try again.";
+  		echo "An error occurred please try again.";
   	}
   	else{
   		mkdir("./profile/$dbuser");
